@@ -95,6 +95,25 @@ p {
   padding: 15px 0px 15px 10px;
 }
 
+.live-pic {
+  display: flex;
+  padding-right: 0rem;
+  margin-right: -15%;
+  border-radius: 30px;
+  align-items: center;
+}
+
+.live-pic img {
+  width: 70%;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  padding-left: 0px;
+  border: 1px solid #78e58c;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
 .SNS {
   color: #58555b;
   padding-left: 10px;
